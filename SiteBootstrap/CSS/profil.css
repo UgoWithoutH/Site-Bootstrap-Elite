@@ -1,0 +1,131 @@
+.profil2, .profil2 img{
+    width: 300px;
+}
+
+.profil2{
+    /*clip-path: ellipse(48% 47% at 50% 50%);*/
+    clip-path: circle(50% at 50% 50%);
+}
+
+
+.profil{
+    margin-top: 50px;
+}
+
+.description{
+    margin-top: 4.5%;
+}
+
+div.texte-etudes{
+    color: white;
+    width: 100%;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.div-etudes{
+    border-radius: 10px;
+    padding-top: 10px;
+    height: 350px;
+    padding-bottom: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+div h1,p{
+    text-align: center;
+}
+
+.qualite  h1{
+    font-size: 30px;
+    
+}
+
+.qualite  p, .qualite  h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.qualite{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    width: 300px;
+    height: 500px;
+}
+
+.modal-dialog img{
+    transition: 1.2s;
+    transform: translateY(-100px);
+    opacity: 0;
+}
+
+.modal-dialog img[data-scroll="in"]{
+    transform: translateX(0);
+    transition-delay: 0.3s;
+    opacity: 1;
+}
+
+/*.texte-etudes p{
+    transition: 1.2s;
+    opacity: 0;
+}
+
+.texte-etudes p[data-scroll="in"]{
+    transition-delay: 0.3s;
+    opacity: 1;
+}*/
+
+.etudes-1{
+    transition: 1.2s;
+    transform: translateX(-100px);
+    opacity: 0;
+}
+
+.etudes-1[data-scroll="in"]{
+    transform: translateX(0);
+    transition-delay: 0.3s;
+    opacity: 1;
+}
+
+.etudes-2{
+    transition: 1.2s;
+    transform: translateX(100px);
+    opacity: 0;
+}
+
+.etudes-2[data-scroll="in"]{
+    transform: translateX(0);
+    transition-delay: 0.3s;
+    opacity: 1;
+}
+
+
+.conteneur-qualites{
+    justify-content: space-between;
+}
+
+.titre-section{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.competences{
+    padding: 30px 20px;
+    margin-bottom: 30px;
+}
+
+hr {
+  height: 1px;
+  padding: 0;
+}
+
+.competences h4{
+    color: white;
+}
+
+section:not(:last-child){
+    margin-bottom: 10%;
+}

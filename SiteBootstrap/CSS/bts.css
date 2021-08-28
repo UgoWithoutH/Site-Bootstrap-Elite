@@ -1,0 +1,46 @@
+.constaint{
+    margin-top: 300px;
+    margin-bottom: 50px;
+    
+}
+
+.bts1{
+    width: 100%;
+}
+
+h2{
+    text-transform: uppercase;
+    color: black;
+}
+
+p{
+    padding: 20px 20px 0px 0px;
+}
+
+.indentation-list{
+  text-indent: 60px;
+  text-align: justify;
+}
+
+.option{
+    padding-bottom: 20px; 
+}
+
+.option:nth-child(1){
+    border: 2px solid black;
+    border-left-style: none;
+    border-top-style: none;
+    border-bottom-style: none;
+}
+
+
+.bts{
+    width: 100%;
+}
+
+.titre-option{
+    border: 2px solid black;
+    border-left-style: none;
+    border-top-style: none;
+    border-right-style: none;
+}

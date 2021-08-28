@@ -1,0 +1,65 @@
+.block{
+    height: 80vh;
+    position: relative;
+}
+
+.custom-shape-divider-bottom-1613759629 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1613759629 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1613759629 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.titre{
+    color: white;
+    text-decoration: underline;
+}
+
+.content{
+    height: 60%;
+    margin-top: 3%;
+}
+
+.texte{
+    color: white;
+    margin-left: 5%;
+    font-size: 105%;
+}
+
+.img-1{
+    transition: 1.2s;
+    transform: translateX(-100px);
+    opacity: 0;
+}
+
+.img-1[data-scroll="in"]{
+    transform: translateX(0);
+    transition-delay: 0.3s;
+    opacity: 1;
+}
+
+
+
+.img-1{
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.img-2{
+    width: 27%;
+    height: 70%;
+    margin-left: 10%;
+}
